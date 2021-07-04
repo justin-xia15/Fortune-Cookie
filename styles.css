@@ -1,5 +1,6 @@
 body {
   background-color: #DA0037;
+  font-family: 'Recursive';
   line-height: 1.5;
   text-align: center;
   overflow: hidden;
@@ -16,6 +17,21 @@ h3 {
 
 p {
   font-family: 'Recursive';
+}
+
+.btn {
+  background-color: gold;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  position: relative;
+  margin-top: 39%;
+  margin-left: 1%;
+  height: 40px;
+  width: 150px;
+}
+
+.btn:hover {
+  background-color: #FFC947;
 }
 
 .cookie {
@@ -47,3 +63,11 @@ p {
 
 }
 
+.paper-text {
+  font-size: 1.3rem;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: #FFC947;
+}
