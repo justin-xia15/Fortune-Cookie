@@ -51,9 +51,17 @@ var fortunes = ["A beautiful, smart, and loving person will be coming into your 
 
 document.querySelector(".btn").addEventListener("click", function() {
 randomFortune();
+buttonPress();
 });
 
 function randomFortune() {
-  var num = Math.floor(Math.random() * 51);
+  var num = Math.floor(Math.random() * 50);
   document.querySelector(".paper-text").innerHTML = "'" + fortunes[num] + "'";
+}
+
+function buttonPress() {
+  document.querySelector(".btn").classList.add("pressed");
+  setTimeout(function() {
+    document.querySelector(".btn").classList.remove("pressed");
+  }, 100);
 }
