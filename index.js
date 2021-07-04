@@ -49,7 +49,9 @@ var fortunes = ["A beautiful, smart, and loving person will be coming into your 
 "Your quick wits will get you out of a tough situation.",
 "You love chinese food."];
 
-
+document.querySelector(".btn").addEventListener("click", function() {
+randomFortune();
+});
 
 function randomFortune() {
   var num = Math.floor(Math.random() * 51);
