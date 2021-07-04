@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  overflow: hidden;
+}
+
+.cookie {
+  height: 50%;
+  width: 50%;
+}
+
+.new-fortune {
+  position: relative;
+  margin-top: 30%;
+}
