@@ -1,14 +1,40 @@
 body {
+  background-color: #DA0037;
   text-align: center;
   overflow: hidden;
 }
 
+h1 {
+  color: gold;
+  font-family: 'Montserrat';
+}
+
+p {
+  font-family: 'Recursive';
+}
+
 .cookie {
   height: 50%;
+  position: absolute;
+  top: 15%;
+  right: 24%;
   width: 50%;
 }
 
 .new-fortune {
+  background-color: #fff;
   position: relative;
-  margin-top: 30%;
+  margin-top: 40%;
+  height: 40px;
+  width: 150px;
+}
+
+.paper {
+  background-color: white;
+  height: 100px;
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  width: 800px;
+
 }
