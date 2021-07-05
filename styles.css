@@ -71,3 +71,47 @@ p {
   box-shadow: 0 0 20px white;
   background-color: #FFC947;
 }
+
+@media (max-width: 640px) {
+  .cookie {
+    height: 30%;
+    right: 15%;
+    width: 70%;
+  }
+
+  .btn {
+    margin-top: 50%;
+  }
+
+  .paper {
+    width: 60%;
+    left: 20%;
+  }
+
+  .paper-text {
+    font-size: 0.8rem;
+    line-height: 2;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+  .cookie {
+    height: 35%;
+    left: 15%;
+    width: 75%;
+  }
+
+  .btn {
+    margin-top: 40%;
+  }
+
+  .paper {
+    width: 65%;
+    left: 17%;
+  }
+
+  .paper-text {
+    font-size: 1rem;
+  }
+}
+
