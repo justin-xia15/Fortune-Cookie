@@ -1,22 +1,9 @@
 body {
   background-color: #DA0037;
-  font-family: 'Recursive';
+  font-family: 'Montserrat';
   line-height: 1.5;
   text-align: center;
   overflow: hidden;
-}
-
-h1 {
-  color: gold;
-  font-family: 'Montserrat';
-}
-
-h3 {
-  line-height: 2;
-}
-
-p {
-  font-family: 'Recursive';
 }
 
 .btn {
@@ -53,6 +40,7 @@ p {
 }
 
 .paper-text {
+  font-family: 'Recursive';
   font-size: 1.3rem;
 }
 
@@ -61,18 +49,23 @@ p {
   background-color: #FFC947;
 }
 
+.title {
+  color: gold;
+}
+
 @media (max-width: 900px) {
-  .cookie {
-    height: 20%;
-    right: 15%;
-    width: 70%;
-  }
 
   .btn {
     font-size: 1.2rem;
     height: 70px;
     width: 170px;
     margin-top: 75%;
+  }
+
+  .cookie {
+    height: 20%;
+    right: 15%;
+    width: 70%;
   }
 
   .paper {
@@ -88,21 +81,17 @@ p {
 
 @media (min-width: 901px) and (max-width: 1336px) {
 
-  .title{
-    font-size: 3.5rem;
+  .btn {
+    height: 100px;
+    font-size: 2rem;
+    width: 300px;
+    margin-top: 70%;
   }
 
   .cookie {
     height: 35%;
     left: 10%;
     width: 85%;
-  }
-
-  .btn {
-    height: 100px;
-    font-size: 2rem;
-    width: 300px;
-    margin-top: 70%;
   }
 
   .paper {
@@ -115,4 +104,10 @@ p {
   .paper-text {
     font-size: 1.8rem;
   }
+
+  .title{
+    font-size: 3.5rem;
+  }
+
+
 }
